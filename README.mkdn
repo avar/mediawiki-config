@@ -5,4 +5,4 @@
 Then:
 
     create database avar_dev_mw_trunk;
-    grant index, create, select, insert, update, delete, alter, lock tables on avar_dev_mw_trunk.* to 'wikiuser'@'localhost' identified by 'wikipass';
+    grant all on avar_dev_mw_trunk.* to 'wikiuser'@'localhost' identified by 'wikipass';
