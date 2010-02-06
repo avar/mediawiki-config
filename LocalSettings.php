@@ -79,7 +79,7 @@ $wgDBmysql5 = true;
 ## Shared memory settings
 $wgMainCacheType = CACHE_MEMCACHED;
 $wgMemCachedServers = array (
-  0 => '127.0.0.1:11211',
+	'127.0.0.1:11211',
 );
 
 ## To enable image uploads, make sure the 'images' directory
