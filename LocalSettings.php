@@ -63,7 +63,7 @@ $wgEmailAuthentication = true;
 ## Database settings
 $wgDBtype           = "mysql";
 $wgDBserver         = "localhost";
-$wgDBname           = "avar_dev_mw_main";
+$wgDBname           = "avar_dev_mw_trunk";
 $wgDBuser           = "wikiuser";
 $wgDBpassword       = "wikipass";
 
