@@ -136,6 +136,18 @@ $wgDebugDumpSql = true;
 $wgShowDBErrorBacktrace = true;
 $wgShowExceptionDetails = true;
 
+# Load extensions
+require 'extensions/Cite/Cite.php';
+require 'extensions/Cite/SpecialCite.php';
+require 'extensions/CrossNamespaceLinks/SpecialCrossNamespaceLinks.php';
+require 'extensions/CategoryTree/CategoryTree.php';
+require 'extensions/Maps/Maps.php';
+require 'extensions/Renameuser/SpecialRenameuser.php';
+require 'extensions/PagedTiffHandler/PagedTiffHandler.php';
+require 'extensions/ParserFunctions/ParserFunctions.php';
+require 'extensions/Poem/Poem.php';
+require 'extensions/ExpandTemplates/ExpandTemplates.php';
+
 # When you make changes to this configuration file, this will make
 # sure that cached pages are cleared.
 $wgCacheEpoch = max( $wgCacheEpoch, gmdate( 'YmdHis', @filemtime( __FILE__ ) ) );
