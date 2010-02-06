@@ -130,6 +130,12 @@ $wgRightsIcon = "${wgScriptPath}/skins/common/images/public-domain.png";
 
 $wgDiff3 = "/usr/bin/diff3";
 
+# Debugging
+$wgColorErrors = true;
+$wgDebugDumpSql = true;
+$wgShowDBErrorBacktrace = true;
+$wgShowExceptionDetails = true;
+
 # When you make changes to this configuration file, this will make
 # sure that cached pages are cleared.
 $wgCacheEpoch = max( $wgCacheEpoch, gmdate( 'YmdHis', @filemtime( __FILE__ ) ) );
